@@ -1,0 +1,8 @@
+{
+  "snippets": {
+    "mysnippet": "fn init_logger() {\n    use std::io;\n\n    use tracing_subscriber::prelude::*;\n    use tracing_subscriber::EnvFilter;\n\n    let logging_filter: EnvFilter = EnvFilter::builder()\n        .with_default_directive(\"trace\".parse().unwrap())\n        .from_env_lossy();\n\n    let stdout_layer = tracing_subscriber::fmt::layer().pretty().with_writer(io::stdout);\n    \n    tracing_subscriber::registry()\n        .with(stdout_layer)\n        .with(logging_filter).init();\n}",
+    "test_download": "fn init_logger() {\n    use std::io;\n\n    use tracing_subscriber::prelude::*;\n    use tracing_subscriber::EnvFilter;\n\n    let logging_filter: EnvFilter = EnvFilter::builder()\n        .with_default_directive(\"trace\".parse().unwrap())\n        .from_env_lossy();\n\n    let stdout_layer = tracing_subscriber::fmt::layer().pretty().with_writer(io::stdout);\n    \n    tracing_subscriber::registry()\n        .with(stdout_layer)\n        .with(logging_filter).init();\n}",
+    "if let pattern": "if let Some(x) = opt { }",
+    "req_test": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style><body><div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.<p><a href=\"https://iana.org/domains/example\">Learn more</a></div></body></html>"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "snippets": {
+    "if let pattern": "if let Some(x) = opt { }"
+  }
+}
