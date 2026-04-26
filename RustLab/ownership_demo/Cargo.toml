@@ -1,0 +1,19 @@
+[package]
+name = "ownership_demo"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "ownership"
+path = "src/ownership.rs"
+
+[[bin]]
+name = "conversions"
+path = "src/conversions.rs"
+
+[[bin]]
+name = "macros_demo"
+path = "src/macros_demo.rs"
+
+[dependencies]
+derive_more = { version = "1", features = ["from", "into", "display", "try_from"] }

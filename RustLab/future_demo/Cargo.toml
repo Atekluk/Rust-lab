@@ -1,0 +1,15 @@
+[package]
+name = "future_demo"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "measurable"
+path = "src/measurable.rs"
+
+[[bin]]
+name = "timer"
+path = "src/timer.rs"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
