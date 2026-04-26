@@ -1,0 +1,22 @@
+[package]
+name = "async_deep_dive"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "runtimes"
+path = "src/runtimes.rs"
+
+[[bin]]
+name = "cancellation"
+path = "src/cancellation.rs"
+
+[[bin]]
+name = "actors"
+path = "src/actors.rs"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+async-std = { version = "1", features = ["attributes"] }
+futures = { version = "0.3", features = ["executor", "thread-pool"] }
+tokio-util = { version = "0.7", features = ["rt"] }

@@ -1,0 +1,7 @@
+https://www.rust-lang.org/logos/rust-logo-512x512.png
+https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png
+https://www.python.org/static/community_logos/python-logo-master-v3-TM.png
+https://raw.githubusercontent.com/github/explore/main/topics/kotlin/kotlin.png
+https://raw.githubusercontent.com/github/explore/main/topics/swift/swift.png
+https://raw.githubusercontent.com/github/explore/main/topics/cpp/cpp.png
+https://raw.githubusercontent.com/github/explore/main/topics/typescript/typescript.png

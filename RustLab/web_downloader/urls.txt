@@ -1,0 +1,5 @@
+https://www.rust-lang.org
+https://doc.rust-lang.org
+https://crates.io
+https://github.com
+https://wikipedia.org

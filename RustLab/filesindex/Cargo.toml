@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "filesindex-core",
+    "filesindex-cli",
+]
+resolver = "2"

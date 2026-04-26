@@ -1,0 +1,13 @@
+[package]
+name = "rust_docs_demo"
+version = "0.1.0"
+edition = "2021"
+description = "Demonstration of Rust documentation and publishing practices"
+license = "MIT"
+authors = ["Mark Sych"]
+repository = "https://github.com/SychMark/RustLab"
+keywords = ["demo", "documentation", "rust"]
+categories = ["development-tools"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
